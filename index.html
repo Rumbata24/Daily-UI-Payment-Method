@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Payment Method</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h3>Payment</h3>
+      <div class="card-container-top">
+        <input type="checkbox" id="checkbox1" title="checkbox1" class="left" />
+        <div class="right">
+          <label class="center" for="checkbox1"><strong>Card</strong></label>
+          <p>Pay with a card</p>
+          <div class="card-inputs">
+            <input
+              class="input100"
+              type="text"
+              name="text"
+              id="card-number"
+              placeholder="Card number"
+            />
+            <input
+              class="input50"
+              type="text"
+              name="text"
+              id="card-month"
+              placeholder="mm/dd"
+            />
+            <input
+              class="input50"
+              type="text"
+              name="text"
+              id="card-cvc"
+              placeholder="cvc"
+            />
+          </div>
+
+          <div class="remember-box">
+            <input
+              type="checkbox"
+              title="checkbox2"
+              id="checkbox2"
+              class="remember"
+            />
+            <label for="checkbox2">Remember my card</label>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-container-bottom">
+        <input type="checkbox" title="checkbox3" id="checkbox3" class="left" />
+        <div class="right">
+          <label for="checkbox3"><strong>Get first. Pay later.</strong></label>
+          <p>Pay within 30 days.</p>
+        </div>
+      </div>
+
+      <button class="continue-btn">continue</button>
+    </div>
+  </body>
+</html>
